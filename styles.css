@@ -1,0 +1,59 @@
+body {
+    font-family: open;
+    background-color: f5f5f5
+}
+
+.avatar {
+    width: 300px;
+    border-right:2px solid black;
+    
+}
+.crushed-regular {
+  font-family: "Crushed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  line-height: 0px;
+}
+
+.open-sans-fontstyle {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 0px;
+}
+
+
+button{
+    color: black;
+    margin-top: 10px;
+    padding: 20px;
+    text-decoration: none;
+    background-color: white;
+    font-style: bold;
+    transition: transform 0.3s ease;
+    outline: none !important;
+    border:2px solid black;
+}
+
+button:hover{
+    transform:rotate(3deg);
+    cursor: pointer;    
+}
+
+.card {
+    width: 600px;
+    margin: 40px auto;
+    display: flex;
+    text-align: center;
+    background: white;
+    color: #2b2839;
+    border: 2px solid black;
+}
+
+.about-me-text{
+    margin: auto;
+    
+}
